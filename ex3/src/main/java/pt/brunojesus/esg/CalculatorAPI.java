@@ -1,3 +1,15 @@
+/**
+ * @author Eduardo Ribeiro
+ *
+ * @number 210100320
+ *
+ * @date 08/06/2022
+ *
+ * @work Teste de Engenharia de Software
+ *
+ */
+
+
 package pt.brunojesus.esg;
 
 import pt.brunojesus.esg.operations.Operation;
@@ -21,6 +33,16 @@ public class CalculatorAPI {
         multiplyOperation = new MultiplyOperation();
         divisionOperation = new DivisionOperation();
     }
+
+    /**
+     *
+     * @param operands make the operation that the user chose
+     * sum - sum the values
+     * sub - subtract the values
+     * multiply - multiply the values
+     * divide - divide the values
+     * @return the value depending of the operation
+     */
 
     public double sum(Double... operands) {
         return sumOperation.execute(Arrays.asList(operands));
