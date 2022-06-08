@@ -36,8 +36,12 @@ public class CalculatorAPI {
 
     /**
      *
-     * @param operands operation (sum,sub,multiply,divide)
-     * @return the value depending of the calcule
+     * @param operands make the operation that the user chose
+     * sum - sum the values
+     * sub - subtract the values
+     * multiply - multiply the values
+     * divide - divide the values
+     * @return the value depending of the operation
      */
 
     public double sum(Double... operands) {
